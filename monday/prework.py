@@ -8,4 +8,3 @@ hello_name("Sam")
 
 #Question 2 - print the first 100 odd numbers
 def max_num_in_list(a_list):
-    
