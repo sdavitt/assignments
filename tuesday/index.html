@@ -1,56 +1,96 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    </head>
 
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </nav>
-        </header>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
 
-        <main>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6"><img src="https://via.placeholder.com/500x500.png" class="img-fluid" alt=""></div>
-                    <div class="col-md-6"><img src="https://via.placeholder.com/500x500.png" class="img-fluid" alt=""></div>
+<!--header contains the logo and navigation buttons-->
+<header>
+    <h1 style="color: #003380; text-align:center; margin-bottom: 30px;">SAM DAVITT</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="https://codingtemple.com/">Coding Temple</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://github.com/sdavitt">Github<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.codewars.com/users/sdavitt">Codewars</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ml-2">
+                    <a class="nav-link" href="https://getbootstrap.com/">Bootstrap</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 style="color: #003380; text-align: center;">Hobbies</h2>
+                <div class="section">
+                    <h4>Cooking</h4>
+                    <img class="img-fluid" src="images/food.jpeg"></img>
+                    <p>Good food brings people together and I love cooking for my friends and family. My favorite recipe
+                        is handmade capellini aglio e olio. I also have a passion for making cocktails- my favorite
+                        being the Pegu Club (a gin drink invented in the late 19th century in modern day Myanmar and
+                        repopularized by the famous cocktail bar of the same name in New York City).</p>
                 </div>
-                <div class="row">
-                    <!--EMMET: .col-md-9>p^.col-md-3>p (emmet .=class #=id)-->
-                    <div class="col-md-9">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, animi! Culpa fuga ea architecto eveniet nobis, quae eligendi numquam inventore natus libero velit aperiam. Illo alias aspernatur necessitatibus! Rerum, sit.</p>
+                <div class="section">
+                    <h4>Hiking</h4>
+                    <div class="row">
+                        <div class="col-md-5"><img src="images/hike.jpeg" alt="hiking" class="img-fluid"></div>
+                        <div class="col-md-7" style="padding-left : 0;"><img src="images/haleakala.jpeg" alt="haleakala" class="img-fluid"></div>
                     </div>
-                    <div class="col-md-3">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit nisi ipsa voluptatum, error voluptate aperiam deleniti, beatae perferendis quod iure. Veniam vitae aut beatae qui eveniet, eum eaque placeat.</p>
-                    </div>
+                    <p>Growing up in New England, I spent lots of time in the outdoors hiking in the White Mountains of
+                        New Hampshire. A long term goal of mine is to summit every 4000ft.+ mountain in New Hampshire
+                        (some 48 peaks). I've been lucky enough to have hiked all across the world including in the
+                        Andes in Argentina, the Swiss Alps, and Haleakala National Park in Hawaii. In 2015, I summited
+                        Mt. Kilimanjaro in Tanzania, the highest mountain in Africa at 19,341ft.</p>
                 </div>
-            </div>    
-        </main>
+                <div class="section">
+                    <h4>Sports - Soccer, Tennis, Kickboxing, Muay Thai, and BJJ</h4>
+                    <p>I've been an avid athlete my entire life. I grew up playing mostly tennis and soccer, and went on
+                        to work as a tennis coach for a number of years. More recently, I have taken up mixed martial
+                        arts- training primarily in kickboxing and muay thai (thai boxing) as well as some brazilian jiu
+                        jitsu. However, I am currently unable to train as I am rehabbing a torn labrum and biceps tendon
+                        injury.</p>
+                </div>
+            </div>
 
-        <footer>
+            <div class="col-md-4">
+                <div class="section">
+                    <h3>About me</h3>
+                    <img class="img-fluid" src="images/headshot.png"></img>
+                    <p>My name is Sam Davitt. I'm a 23 year old aspiring developer from Boston, MA. I grew up in Boston
+                        before attending Washington University in St. Louis for three years. After changing my major
+                        multiple times and struggling with my mental health and traditional academia, I decided to step
+                        back from college. Now, I am looking to start a career as a programmer. I enjoy and excel at
+                        logic puzzles and find coding to so far hold the same types of fun challenges. Pursuing a career
+                        in a field in high demand that I find fun and challenging seems like a dream. So, I'm excited to
+                        build my mastery and follow that dream.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        </footer>
 
-
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous"></script>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
 
 
 </html>

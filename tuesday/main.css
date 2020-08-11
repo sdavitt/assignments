@@ -1,0 +1,21 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar, .navbar-brand, .nav-link{
+    color: #003380 !important;
+    background-color: slategray !important;
+}
+
+.section{
+    background-color: slategray;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* image formatting in column section */
+.img-fluid{
+    max-height: 300px;
+}
