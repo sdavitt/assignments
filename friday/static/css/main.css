@@ -1,0 +1,45 @@
+body {
+    background: url(../images/nza_background.jpg) no-repeat;
+    background-size: cover;
+}
+
+#page {
+    background-color: #fff;
+}
+
+#navigation {
+    list-style-type: none;
+    
+}
+
+#navigation li {
+    display: inline;
+    margin: 10px 5px;
+    padding: 10px 5px;
+}
+
+nav {
+
+}
+
+#navigation li a {
+    color: #000;
+}
+
+.sidebar {
+    background: url(../images/nav_side_sub.jpg);
+    overflow-y: scroll;
+}
+
+.hero-image, .sidebar {
+    height: 470px;
+}
+
+.homepage-container {
+    padding: 0px 25px;
+}
+
+.sidebar img {
+    width: 100%;
+    padding: 10px;
+}
